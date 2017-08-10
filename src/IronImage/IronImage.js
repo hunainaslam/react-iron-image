@@ -9,9 +9,7 @@ class IronImage extends Component {
   }
 
   componentDidMount() {
-
-    // const ironImageHd = document.querySelector('.iron-image-loaded');
-    
+        
     const hdLoaderImg = new Image();
 
     hdLoaderImg.src = this.props.srcLoaded;
